@@ -1,0 +1,48 @@
+body {
+    background-image: url(table_mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    margin: 0em;
+    padding: 0em;
+    border-radius: 2em;
+
+}
+.flexbox_button {
+    margin: auto;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    text-align: center;
+
+}
+.simplegrid_button {
+    margin: auto;
+    text-align: center;
+    padding-top: -4em;
+    padding-right: 5em ;
+}
+.navigation {
+    display: flex;
+}
+button {
+    background:transparent;
+    color: #C1D3FE;
+    width: 20em;
+    height: 4.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    font-weight:lighter;
+    font-size: large;
+    border-color: #979DAC;
+    border-radius: 1.5em;
+}
+button:hover {
+    cursor: pointer;
+    box-shadow: 5px 10px 20px #56CFE1;
+}
+.footer {
+    text-align: center;
+    margin-top: 28em;
+    color: #C1D3FE;
+}

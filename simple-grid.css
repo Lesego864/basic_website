@@ -50,6 +50,7 @@ body {
 .text {
   padding-top: auto;
   padding-left: auto;
+  border: 1px gainsboro;
 }
 .interesting_facts1 {
   /*border: 1px solid gainsboro;*/
@@ -70,7 +71,7 @@ body {
   display: inline;
 }
 .interesting_facts3 {
-  /*border: 1px solid gainsboro;*/
+  border: 1px solid gainsboro
   padding: 1em;
   margin: 1em;
   width: 20em;
@@ -78,8 +79,20 @@ body {
   display: inline;
 
 }
-.pic {
+.historic_place {
+  border: 1px solid gainsboro;
+  border-width: 0.1em;
+  padding: 0.5em;
+  height: max-content;
+
+}
+/*.pic {
   text-align: center;
+  width: 20em;
+  height: 15em
+}*/
+
+
 }
 h1 {
   padding-top: 4.5em;
@@ -102,6 +115,7 @@ th {
 table, th, td {
   border: 1px solid #A6808C;
   border-collapse: collapse;
+
 }
 th, td {
   padding: 1em;

@@ -52,13 +52,26 @@ p {
     padding-top: auto;
     padding-left: auto;
 }
-.interesting_facts {
+.interesting_facts1 {
     border: 1px solid gainsboro;
-    padding: 1em;
-    margin: 1em;
+    flex: 1;
+    margin: 2% 5% 2% 5%;
+    width: 500px;
+    height: 350px;
+}
+.interesting_facts2 {
+    border: 1px solid gainsboro;
+    flex: 1;
+    margin: 2% 5% 2% 5%;
+    width: 500px;
+    height: 350px;
+}
+.interesting_facts3 {
+    border: 1px solid gainsboro;
+    flex: 1;
+    margin: 2% 5% 2% 5%;
     width: 500px;
     height: auto;
-
 }
 
 table {
@@ -88,16 +101,15 @@ td {
     background-color: #E2EAFC;
 }
 .historic_place {
-    display: flex;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;;
 }
 @media (min-width: 960px) {
     .image {
         display: flex;
     }
     .which_city {
-        display: flex;
-    }
-    .interesting_facts {
         display: flex;
     }
     .historic_place {

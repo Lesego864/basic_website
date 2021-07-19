@@ -13,9 +13,9 @@ h1 {
     font-size: 5em;
     font-style: italic;
     font-weight: normal;
-    font-size: x-large;
+    font-size: large;
     color: #C1D3FE;
-    padding-top: 10em;
+    padding-top: 8em;
 
 }
 .flexbox_button {
@@ -24,7 +24,7 @@ h1 {
     padding-right: 8.5em;
     /*padding-bottom: 10em;*/
     text-align: center;
-    margin-left: 25em;
+    margin-left: 13em;
     /*margin: 7.5em;*/
     
 

@@ -21,15 +21,21 @@ h1 {
 .flexbox_button {
     margin: auto;
     padding-top: 8.5em;
-    padding-bottom: 10em;
+    padding-right: 8.5em;
+    /*padding-bottom: 10em;*/
     text-align: center;
+    margin-left: 25em;
+    /*margin: 7.5em;*/
+    
 
 }
 .simplegrid_button {
     margin: auto;
+    margin-top: -0.4em;
     text-align: center;
-    padding-top: -4em;
-    padding-right: 5em ;
+    padding-top: 8.5em;
+    padding-right: 8.5em;
+    margin-right: 20em;
 }
 .navigation {
     display: flex;

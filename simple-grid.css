@@ -17,15 +17,16 @@ body {
   top: 0;
   font-size: 100%;
   background-color: #979DAC;
-  text-align: center;
+  /*text-align: center;*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #001845;
+  text-align: justify;
 }
 .links {
   list-style: none;
   margin: 0.1em;
   padding: 0.1em;
-  display: block;
+  display: flex
 }
 .image {
   background-image: url(city\ of\ CA.jpg);
@@ -45,15 +46,22 @@ body {
   padding-right: 4.5em;
 }
 .img1 {
-  text-align: left;
+  text-align: justify;
+  margin-left: -2.2em;
+  margin-right: 10em;
+
 }
 .text {
   padding-top: auto;
-  padding-left: auto;
-  border: 1px gainsboro;
+  /*padding-left: 24em;*/
+  margin-left: 100em;
+  width: 25em;
+  height: auto;
+  float: right;
+
 }
-.interesting_facts1 {
-  /*border: 1px solid gainsboro;*/
+.interesting_facts {
+  border: 1px solid gainsboro;
   padding: 1em;
   margin: 1em;
   width: 20em;
@@ -62,8 +70,21 @@ body {
   margin-right: 7.5em;
 
 }
-.interesting_facts2 {
+li{
   /*border: 1px solid gainsboro;*/
+  padding: 1em;
+  margin: 1em;
+  width: 15em;
+  height: auto;
+  display: inline;
+  margin-left: -0.1em;
+  margin-right: 7.5em;
+  list-style: none;
+  float: left;
+  text-align: justify;
+}
+/*.interesting_facts2 {
+  /*border: 1px solid gainsboro;
   padding: 1em;
   margin: 1em;
   width: 20em;
@@ -78,27 +99,42 @@ body {
   height: auto;
   display: inline;
 
-}
+}*/
 .historic_place {
-  border: 1px solid gainsboro;
+  /*border: 1px solid gainsboro;*/
   border-width: 0.1em;
   padding: 0.5em;
   height: max-content;
 
 }
-/*.pic {
-  text-align: center;
+.pic3 {
+  /*text-align: center;*/
   width: 20em;
-  height: 15em
-}*/
-
-
+  height: 15em;
+  margin-left: 2em;
 }
+
+/*.pic1 {
+  text-align: right;
+}*/
 h1 {
   padding-top: 4.5em;
 }
 h2 {
   text-align: left;
+}
+/p {
+  border: 1px solid gainsboro;
+  width: 50em;
+  height: auto;
+  display: inline;
+  padding: 1em;
+  margin: 1em;
+
+
+}
+.col-6_pic {
+  float: right;
 }
 
 table {
@@ -106,7 +142,9 @@ table {
   height: 1em;
   text-align: left;
   border:1px solid black; margin-left: auto; margin-right: auto;
-       
+  text-align: left;
+  margin-left: 0.1em;
+  margin-top: 2em;     
 }
 th {
   text-align: center;
@@ -115,14 +153,16 @@ th {
 table, th, td {
   border: 1px solid #A6808C;
   border-collapse: collapse;
-
 }
 th, td {
   padding: 1em;
 }
 caption {
   text-align: left;
-  margin-top: 1em;
+  margin-top: 2em;
+  margin-left: 3em;
+  padding-top: 2em;
+  
 }
 td {
   text-align: left;
@@ -141,10 +181,20 @@ button {
   font-size:small;
   border-color: #979DAC;
   border-radius: 1.5em;
+
 }
 button:hover {
   cursor: pointer;
   box-shadow: 5px 10px 20px #56CFE1;
+}
+.links {
+  list-style: none;
+  margin: 1em;
+  padding: 2em;
+  display: flex;
+}
+.footer {
+  text-align: center;
 }
 
 
@@ -325,7 +375,9 @@ p {
   }
 
   .col-2 {
-    width: 12.66%;
+    width: 15em;
+    height: auto;
+    border: 1px solid gainsboro
   }
 
   .col-3 {
@@ -333,7 +385,8 @@ p {
   }
 
   .col-4 {
-    width: 29.33%;
+    width: 17.6em;
+    text-align: justify;
   }
 
   .col-5 {
@@ -342,6 +395,9 @@ p {
 
   .col-6 {
     width: 46%;
+
+    height: auto;
+    /*border: 1px solid gainsboro*/
   }
 
   .col-7 {

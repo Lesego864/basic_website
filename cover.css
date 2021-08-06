@@ -13,9 +13,9 @@ h1 {
     font-size: 5em;
     font-style: italic;
     font-weight: normal;
-    font-size: large;
+    font-size: x-large;
     color: #C1D3FE;
-    padding-top: 8em;
+    padding-top: 10em;
 
 }
 .flexbox_button {
@@ -24,9 +24,9 @@ h1 {
     padding-right: 8.5em;
     /*padding-bottom: 10em;*/
     text-align: center;
-    margin-left: 13em;
+    margin-left: 25em;
     /*margin: 7.5em;*/
-    
+    display: flex;
 
 }
 .simplegrid_button {
@@ -37,6 +37,7 @@ h1 {
     padding-right: 8.5em;
     margin-right: 30em;
     margin-bottom: 0.6em;
+    display: flex;
 }
 .navigation {
     display: flex;
@@ -63,3 +64,7 @@ button:hover {
     margin-top: 28em;
     color: #C1D3FE;
 }
+@media (min-width: 960px) {
+    .body {
+        display: flex;
+    }

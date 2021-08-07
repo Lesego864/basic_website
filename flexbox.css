@@ -20,7 +20,7 @@ li{
     margin: 1em;
     width: 15em;
     height: auto;
-    display: inline;
+    display: flex;
     margin-left: -0.1em;
     margin-right: 7.5em;
     list-style: none;
@@ -78,13 +78,17 @@ p {
     padding-top: 1em;
     padding-left: 2.5em;
     padding-right: 4.5em;
+    width: 30em;
+    height: auto;
 }
 .img1 {
     text-align: left;
 }
-.text {
+.city_text {
     padding-top: auto;
     padding-left: 2em;
+    border: 1px gainsboro;
+
 }
 .historic_place{
     display: flex;

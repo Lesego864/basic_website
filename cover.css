@@ -6,6 +6,10 @@ body {
     margin: 0em;
     padding: 0em;
     border-radius: 2em;
+    height: 100vh;
+   /* width: 100vw;*/
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 h1 {
     text-align: center;
@@ -22,22 +26,23 @@ h1 {
     margin: auto;
     padding-top: 8.5em;
     padding-right: 8.5em;
-    /*padding-bottom: 10em;*/
-    text-align: center;
-    margin-left: 25em;
+    padding-bottom: 10em;
+    text-align: left;
+    margin-left: 12em;
     /*margin: 7.5em;*/
-    display: flex;
+    /*display: flex;*/
 
 }
 .simplegrid_button {
     margin: auto;
     margin-top: 0em;
-    text-align: center;
+    text-align: right;
     padding-top: 8.5em;
     padding-right: 8.5em;
-    margin-right: 30em;
-    margin-bottom: 0.6em;
-    display: flex;
+    padding-bottom: 10em;
+    margin-right: 10em;
+    /*margin-bottom: 0.6em;*/
+    /*display: flex;*/
 }
 .navigation {
     display: flex;

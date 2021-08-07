@@ -31,9 +31,10 @@ li{
     background-size: cover;
     background-position: center;
     position: sticky;
-    margin: 0em;
-    padding: 0em;
+    padding-right: 0em;
     border-radius: 2em;
+    margin-left: -2em;
+    margin-right: -3em;
 }
 h1 {
     color: #001845;
@@ -56,6 +57,9 @@ h2 {
     text-align: left;
     padding: 1em;
     margin: 0.5em;
+}
+h3 {
+    display: flex;
 }
 p {
     text-align: center;
@@ -81,26 +85,48 @@ p {
     padding-top: auto;
     padding-left: 2em;
 }
-.interesting_facts1 {
-    border: 1px solid gainsboro;
-    flex: 1;
-    margin: 2% 5% 2% 5%;
-    width: 500px;
-    height: 350px;
+.historic_place{
+    display: flex;
 }
-.interesting_facts2 {
-    border: 1px solid gainsboro;
-    flex: 1;
-    margin: 2% 5% 2% 5%;
-    width: 500px;
-    height: 350px;
+.interesting_facts1{
+    margin-right: 2em;
 }
-.interesting_facts3 {
-    border: 1px solid gainsboro;
+.interesting_facts2{
+    margin-right: 2em;
+}
+.content1 {
+    margin-left: -2em;
     flex: 1;
-    margin: 2% 5% 2% 5%;
-    width: 500px;
+    display: flex;
+    width: 33em;
     height: auto;
+}
+.Credopic{
+    padding-top: 2em;
+}
+.Hillpic {
+    padding-top: 2em;
+}
+.Museumpic {
+    padding-top: 2.1em;
+}
+.content2 {
+    margin-left: -2em;
+    flex: 1;
+    display: flex;
+    width: 30em;
+    height: auto;
+
+}
+.content3 {
+    margin-left: -2em;
+    flex: 1;
+    display: flex;
+    width: 31em;
+    height: auto;
+}
+.footer {
+    text-align: center;
 }
 
 table {

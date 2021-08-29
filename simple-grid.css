@@ -72,6 +72,27 @@ body {
   margin-right: 7.5em;
 
 }
+.content1 {
+  width: 35em;
+  height: auto;
+}
+.Credopic{
+  padding-top: 1.3em;
+}
+.content2 {
+  width: 35em;
+  height: auto;
+}
+.Hillpic {
+  padding-top: 1.2em;
+}
+.content3 {
+  width: 35em;
+  height: auto;
+}
+.Museumpic {
+  padding-top: 1.2em;
+}
 li{
   /*border: 1px solid gainsboro;*/
   padding: 1em;

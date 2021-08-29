@@ -37,6 +37,8 @@ body {
   margin: 0em;
   padding: 0em;
   border-radius: 2em;
+  box-shadow: 5px 10px 20px #0466C8;
+  margin-bottom: 1em;
 }
 
 .which_city {
@@ -48,13 +50,13 @@ body {
 .img1 {
   text-align: justify;
   margin-left: -2.2em;
-  margin-right: 10em;
+  margin-right: 4em;
 
 }
 .text {
   padding-top: auto;
   /*padding-left: 24em;*/
-  margin-left: 100em;
+  margin-left: auto;
   width: 25em;
   height: auto;
   float: right;
@@ -119,6 +121,7 @@ li{
 }*/
 h1 {
   padding-top: 4.5em;
+  color: #0466C8;
 }
 h2 {
   text-align: left;
@@ -127,9 +130,10 @@ h2 {
   border: 1px solid gainsboro;
   width: 50em;
   height: auto;
-  display: inline;
+  /*display: inline;*/
   padding: 1em;
   margin: 1em;
+  margin-left: -1em;
 
 
 }
@@ -140,11 +144,10 @@ h2 {
 table {
   width: 30em;
   height: 1em;
-  text-align: left;
   border:1px solid black; margin-left: auto; margin-right: auto;
   text-align: left;
-  margin-left: 0.1em;
-  margin-top: 2em;     
+  margin-left: auto;
+  margin-top: 1em;     
 }
 th {
   text-align: center;
@@ -158,10 +161,9 @@ th, td {
   padding: 1em;
 }
 caption {
-  text-align: left;
-  margin-top: 2em;
-  margin-left: 3em;
-  padding-top: 2em;
+  text-align: center;
+  margin-bottom: 1.5em;
+  margin-left: auto;
   
 }
 td {

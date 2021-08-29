@@ -36,6 +36,7 @@ li{
     border-radius: 2em;
     margin-left: -2em;
     margin-right: 0em;
+    box-shadow: 5px 10px 20px #979DAC;
 }
 h1 {
     color: #001845;
@@ -88,6 +89,7 @@ p {
     padding-top: auto;
     padding-left: 2em;
     border: 1px gainsboro;
+    margin: auto;
 
 }
 .historic_place{
@@ -137,10 +139,10 @@ p {
 table {
     width: 30em;
     height: 1em;
-    text-align: left;
+    text-align: justify;
     border:1px solid black; margin-left: auto; margin-right: auto;
-    margin-left: 2em;
-    margin-top: 2em;   
+    margin-left: auto;
+    margin-top: 1em;   
 }
 th {
     text-align: center;
@@ -156,7 +158,7 @@ th, td {
 caption {
     text-align: left;
     margin-bottom: 2em;
-    margin-top: -1.1em;
+    margin-top: 0.5em;
 
 }
 td {
